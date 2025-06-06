@@ -30,16 +30,3 @@ DogBreedViewer is a sleek Android application built with Kotlin that allows user
 ## 📡 API Reference
 
 This project uses the [Dog CEO's Dog API](https://dog.ceo/dog-api/) to fetch breed data and images.
-
-## 💡 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/DogBreedViewer.git
-   ```
-
-2. Open the project in **Android Studio**
-
-3. Make sure you have an emulator or Android device connected
-
-4. Click **Run** ▶️ to build and deploy the app
