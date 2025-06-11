@@ -41,6 +41,32 @@ This app uses the public [Dog CEO's Dog API](https://dog.ceo/dog-api/) to retrie
 
 ---
 
+## 🛠️ How to Run the Project
+
+To build and run the DogBreedViewer app locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/DogBreedViewer.git
+   cd DogBreedViewer
+   ```
+
+2. **Open the project in Android Studio**:
+   - Launch Android Studio.
+   - Select **"Open an existing project"** and choose the cloned folder.
+
+3. **Build the project**:
+   - Let Gradle sync finish.
+   - Make sure you have an emulator running or an Android device connected.
+
+4. **Run the app**:
+   - Click the **Run** button in Android Studio.
+   - Choose a device or emulator to launch the app.
+
+💡 *Note: Ensure you have Android Studio Bumblebee or later installed with Kotlin and Android SDK 30+.*
+
+---
+
 ## 📝 Conclusion
 
 **DogBreedViewer** is a simple yet powerful example of modern Android development using best practices such as MVVM, coroutines, and clean architecture. It serves as a great starting point for projects involving dynamic data loading, RESTful API integration, and responsive UI design on mobile platforms.
