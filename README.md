@@ -47,9 +47,12 @@ This ensures the project is easily maintainable and extensible.
 ## 📹 Demo Video
 
 > The demo video is stored in the repository under:  
-> **`/media/dog-breed-viewer-demo.webm`**
+> `/media/dog-breed-viewer-demo.webm`
 
 ### ▶️ Watch the App Demo
 
-```markdown
-![Demo Video](media/dog-breed-viewer-demo.webm)
+<video controls width="640">
+  <source src="media/dog-breed-viewer-demo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
