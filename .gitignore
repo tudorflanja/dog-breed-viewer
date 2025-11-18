@@ -1,15 +1,62 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gitignore###############
+# ANDROID / KOTLIN
+###############
+
+# Gradle files
+.gradle/
+**/build/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local configuration (do NOT upload)
 local.properties
+
+# Android Studio
+.idea/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Kotlin
+.kotlin/
+
+# IntelliJ / Android Studio metadata
+*.iml
+
+###############
+# SYSTEM FILES
+###############
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+###############
+# LOG FILES
+###############
+*.log
+
+###############
+# BUILD OUTPUT
+###############
+
+*.apk
+*.ap_
+*.aab
+*.hprof
+
+###############
+# MEDIA (keep this!)
+###############
+# Do NOT ignore the media folder (your demo video)
+!/media/
+/media/*.webm
+
+###############
+# MISC
+###############
+*.tmp
+*.temp
