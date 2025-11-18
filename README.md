@@ -152,13 +152,6 @@ These improvements can significantly enhance user experience.
 
 ---
 
-## 📄 License
-
-This project is open-source and distributed under the **MIT License**.  
-You are free to use, modify, and distribute the project as long as the license is included.
-
----
-
 ## 🙌 Acknowledgements
 
 - **Dog CEO API** – Free and open dog image API  
