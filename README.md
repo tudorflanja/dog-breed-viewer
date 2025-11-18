@@ -26,7 +26,8 @@ It demonstrates clean Android development practices with **Kotlin**, **Jetpack C
 - **MVVM Architecture** – ViewModel + Repository + UI layers  
 - **Coroutines & Flow** – Asynchronous data handling  
 - **Navigation Component** – Screen navigation  
-- **Android Studio (Kotlin DSL)** – Project configuration  
+- **Material 3** – Modern Android UI styling  
+- **Android Studio (Kotlin DSL)** – Project setup and Gradle configuration  
 
 ---
 
@@ -34,23 +35,135 @@ It demonstrates clean Android development practices with **Kotlin**, **Jetpack C
 
 The app follows a clean and scalable architecture:
 
-- **UI (Compose Screens)** – Lists, details, and image grids  
-- **ViewModel Layer** – Holds UI state and performs API calls  
-- **Repository Layer** – Abstracts network operations  
-- **API Layer (Retrofit)** – Accesses the Dog CEO API endpoints  
-- **Model Layer** – Data classes for handling API responses  
+- **UI Layer** (Compose screens) – Breed lists, grids, and detail pages  
+- **ViewModel Layer** – Holds UI state, exposes flows, and coordinates API calls  
+- **Repository Layer** – Abstracts data access from UI  
+- **Network Layer** – Retrofit client, endpoints, and JSON parsing  
+- **Model Layer** – Kotlin data classes representing breed and image responses  
 
-This ensures the project is easily maintainable and extensible.
+This modular structure ensures the project is readable, maintainable, and easy to extend.
 
 ---
 
-## 📹 Demo Video
+## 📡 API Endpoints Used
 
-The demo video is stored in the repository under:
+The application interacts with the open-source **Dog CEO API**, which provides breed data and images.
 
-`/media/dog-breed-viewer-demo.webm`
+- **List all breeds**  
+  https://dog.ceo/api/breeds/list/all
 
-### ▶️ Watch the App Demo
+- **Get images of a breed**  
+  https://dog.ceo/api/breed/{breed}/images
 
-[▶️ Click here to watch the demo](media/dog-breed-viewer-demo.webm)
+- **Get images of a sub-breed**  
+  https://dog.ceo/api/breed/{breed}/{subbreed}/images
 
+Responses are returned as JSON and mapped using **Moshi**.
+
+---
+
+## 📂 Project Structure
+
+dog-breed-viewer/  
+│  
+├── app/ # Main Android module  
+│   ├── src/main/java/ # Kotlin source code  
+│   │   ├── ui/ # Compose screens and components  
+│   │   ├── viewmodel/ # ViewModels  
+│   │   ├── repository/ # Data handling layer  
+│   │   ├── network/ # Retrofit API interfaces  
+│   │   └── model/ # Data classes  
+│   │  
+│   ├── src/main/res/ # Resources (icons, colors, themes)  
+│   └── build.gradle.kts # App Gradle config  
+│  
+├── media/ # Demo assets (optional)  
+│  
+├── build.gradle.kts # Project-wide Gradle config  
+├── settings.gradle.kts # Gradle module settings  
+├── .gitignore # Git ignore rules  
+└── README.md # Documentation  
+
+This structure ensures a solid separation of concerns and clean organization.
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+    git clone https://github.com/tudorflanja/dog-breed-viewer.git
+    cd dog-breed-viewer
+
+### 2️⃣ Open the project
+
+- Launch **Android Studio**  
+- Select **Open**  
+- Choose the **dog-breed-viewer** folder  
+
+### 3️⃣ Sync Gradle
+
+Android Studio will automatically download dependencies.
+
+### 4️⃣ Run the app
+
+- Select a device or emulator  
+- Press **Run ▶️**  
+
+The app will launch and display the list of dog breeds.
+
+---
+
+## 🧪 Testing Support
+
+This project can be extended with:
+
+- Unit tests (JUnit + Coroutines Test)  
+- API tests (MockWebServer)  
+- Compose UI tests (Compose Testing Framework)  
+
+These can be added inside `src/test` and `src/androidTest`.
+
+---
+
+## 🌙 Optional: Dark Mode Support
+
+Jetpack Compose enables effortless theming.  
+Future improvements may include:
+
+- Automatic system dark mode  
+- Manual theme toggle  
+- Dynamic color palettes using Material 3  
+
+---
+
+## 🚧 Future Improvements
+
+Potential enhancements for upcoming versions:
+
+- ⭐ Favorites system (save preferred dog images locally)  
+- ⭐ Room database caching (offline mode)  
+- ⭐ Pagination for large image sets  
+- ⭐ Pull-to-refresh functionality  
+- ⭐ More advanced filtering options  
+- ⭐ Animations and loading indicators  
+
+These improvements can significantly enhance user experience.
+
+---
+
+## 📄 License
+
+This project is open-source and distributed under the **MIT License**.  
+You are free to use, modify, and distribute the project as long as the license is included.
+
+---
+
+## 🙌 Acknowledgements
+
+- **Dog CEO API** – Free and open dog image API  
+- **Jetpack Compose Team** – Modern UI toolkit  
+- **Android Developers Community** – Guides, samples, and libraries  
+
+Thank you for checking out the project!  
+Feel free to ⭐ star the repo if you found it useful.
