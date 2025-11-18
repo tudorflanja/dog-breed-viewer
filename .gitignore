@@ -1,15 +1,14 @@
-.gitignore###############
+##########################
 # ANDROID / KOTLIN
-###############
+##########################
 
-# Gradle files
+# Gradle
 .gradle/
 **/build/
 build/
-gradle-app.setting
 !gradle-wrapper.jar
 
-# Local configuration (do NOT upload)
+# Local configuration
 local.properties
 
 # Android Studio
@@ -18,15 +17,15 @@ local.properties
 .externalNativeBuild/
 captures/
 
-# Kotlin
+# Kotlin build cache
 .kotlin/
 
-# IntelliJ / Android Studio metadata
+# IntelliJ modules
 *.iml
 
-###############
+##########################
 # SYSTEM FILES
-###############
+##########################
 
 # macOS
 .DS_Store
@@ -34,29 +33,32 @@ captures/
 # Windows
 Thumbs.db
 
-###############
+##########################
 # LOG FILES
-###############
+##########################
+
 *.log
 
-###############
+##########################
 # BUILD OUTPUT
-###############
+##########################
 
 *.apk
 *.ap_
 *.aab
 *.hprof
 
-###############
-# MEDIA (keep this!)
-###############
-# Do NOT ignore the media folder (your demo video)
-!/media/
-/media/*.webm
+##########################
+# TEMP / MISC
+##########################
 
-###############
-# MISC
-###############
 *.tmp
 *.temp
+
+##########################
+# MEDIA FOLDER (KEEP IT)
+##########################
+
+# Do NOT ignore the media folder
+!/media/
+!media/**
