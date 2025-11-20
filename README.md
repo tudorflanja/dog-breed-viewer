@@ -160,3 +160,7 @@ These improvements can significantly enhance user experience.
 
 Thank you for checking out the project!  
 Feel free to ⭐ star the repo if you found it useful.
+
+---
+
+This project was completed as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
