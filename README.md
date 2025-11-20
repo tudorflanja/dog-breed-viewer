@@ -64,25 +64,22 @@ Responses are returned as JSON and mapped using **Moshi**.
 
 ## 📂 Project Structure
 
-dog-breed-viewer/  
-│  
-├── app/ # Main Android module  
-│   ├── src/main/java/ # Kotlin source code  
-│   │   ├── ui/ # Compose screens and components  
-│   │   ├── viewmodel/ # ViewModels  
-│   │   ├── repository/ # Data handling layer  
-│   │   ├── network/ # Retrofit API interfaces  
-│   │   └── model/ # Data classes  
-│   │  
-│   ├── src/main/res/ # Resources (icons, colors, themes)  
-│   └── build.gradle.kts # App Gradle config  
-│  
-├── media/ # Demo assets (optional)  
-│  
-├── build.gradle.kts # Project-wide Gradle config  
-├── settings.gradle.kts # Gradle module settings  
-├── .gitignore # Git ignore rules  
-└── README.md # Documentation  
+📁 dog-breed-viewer
+├── 📱 app
+│   ├── 📂 src/main/java
+│   │   ├── 🎨 ui
+│   │   ├── 🧠 viewmodel
+│   │   ├── 📦 repository
+│   │   ├── 🌐 network
+│   │   └── 📄 model
+│   ├── 🖼️ src/main/res
+│   └── 🛠️ build.gradle.kts
+│
+├── 🎥 media
+├── 🛠️ build.gradle.kts
+├── ⚙️ settings.gradle.kts
+├── 🚫 .gitignore
+└── 📘 README.md
 
 This structure ensures a solid separation of concerns and clean organization.
 
