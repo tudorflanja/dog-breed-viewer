@@ -154,9 +154,6 @@ These improvements can significantly enhance user experience.
 - **Jetpack Compose Team** – Modern UI toolkit  
 - **Android Developers Community** – Guides, samples, and libraries  
 
-Thank you for checking out the project!  
-Feel free to ⭐ star the repo if you found it useful.
-
 ---
 
-This project was completed as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
+This project was completed for the User Interface Design course, as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
