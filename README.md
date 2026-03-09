@@ -1,24 +1,24 @@
-# 🐶📱 Dog Breed Viewer – Android App (Kotlin + Jetpack Compose)
+# Dog Breed Viewer – Android App (Kotlin + Jetpack Compose)
 
 This mobile application displays dog breeds and their images using the **Dog CEO API**.  
 It demonstrates clean Android development practices with **Kotlin**, **Jetpack Compose**, **MVVM**, and **Retrofit**, offering a smooth and intuitive UI for browsing dog breeds.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🐕 **Dog Breed Browser** – View a complete list of dog breeds  
-- 🖼️ **Image Gallery** – Display dog images fetched from the Dog CEO REST API  
-- 🔎 **Search Bar** – Quickly find specific breeds through dynamic filtering  
-- ⚡ **Modern UI Design** – Fully built with **Jetpack Compose**  
-- 📡 **API Integration** – Real-time breed and image data via Retrofit  
-- 🧭 **Navigation Component** – Seamless screen transitions  
-- 💾 **Caching Ready** – Architecture supports offline storage extensions  
-- 🎨 **Clean & Minimal UI** – Simple, smooth, and user-friendly  
+- **Dog Breed Browser** – View a complete list of dog breeds  
+- **Image Gallery** – Display dog images fetched from the Dog CEO REST API  
+- **Search Bar** – Quickly find specific breeds through dynamic filtering  
+- **Modern UI Design** – Fully built with **Jetpack Compose**  
+- **API Integration** – Real-time breed and image data via Retrofit  
+- **Navigation Component** – Seamless screen transitions  
+- **Caching Ready** – Architecture supports offline storage extensions  
+- **Clean & Minimal UI** – Simple, smooth, and user-friendly  
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Kotlin** – Primary programming language  
 - **Jetpack Compose** – Declarative UI toolkit  
@@ -31,7 +31,7 @@ It demonstrates clean Android development practices with **Kotlin**, **Jetpack C
 
 ---
 
-## 🛠️ Application Overview
+## Application Overview
 
 The app follows a clean and scalable architecture:
 
@@ -45,7 +45,7 @@ This modular structure ensures the project is readable, maintainable, and easy t
 
 ---
 
-## 📡 API Endpoints Used
+## API Endpoints Used
 
 The application interacts with the open-source **Dog CEO API**, which provides breed data and images.
 
@@ -62,7 +62,7 @@ Responses are returned as JSON and mapped using **Moshi**.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 | Path                            | Description                       |
 | ------------------------------- | --------------------------------- |
@@ -110,7 +110,7 @@ The app will launch and display the list of dog breeds.
 
 ---
 
-## 🧪 Testing Support
+## Testing Support
 
 This project can be extended with:
 
@@ -122,7 +122,7 @@ These can be added inside `src/test` and `src/androidTest`.
 
 ---
 
-## 🌙 Optional: Dark Mode Support
+## Optional: Dark Mode Support
 
 Jetpack Compose enables effortless theming.  
 Future improvements may include:
@@ -133,22 +133,22 @@ Future improvements may include:
 
 ---
 
-## 🚧 Future Improvements
+## Future Improvements
 
 Potential enhancements for upcoming versions:
 
-- ⭐ Favorites system (save preferred dog images locally)  
-- ⭐ Room database caching (offline mode)  
-- ⭐ Pagination for large image sets  
-- ⭐ Pull-to-refresh functionality  
-- ⭐ More advanced filtering options  
-- ⭐ Animations and loading indicators  
+- Favorites system (save preferred dog images locally)  
+- Room database caching (offline mode)  
+- Pagination for large image sets  
+- Pull-to-refresh functionality  
+- More advanced filtering options  
+- Animations and loading indicators  
 
 These improvements can significantly enhance user experience.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - **Dog CEO API** – Free and open dog image API  
 - **Jetpack Compose Team** – Modern UI toolkit  
